@@ -1,0 +1,274 @@
+{
+  "nav": {
+    "home": "Home",
+    "rights": "Legal References",
+    "about": "About"
+  },
+  "privacy": {
+    "banner": "For maximum privacy, use this site in a private/incognito window and consider using the Tor Browser.",
+    "dismiss": "Dismiss"
+  },
+  "home": {
+    "headline": "Know Your Rights",
+    "subhead": "Step-by-step guides for real situations. You have rights — no matter your immigration status.",
+    "scenarios": {
+      "police": { "label": "Police stop or questioning", "icon": "🚔" },
+      "ice": { "label": "ICE agents at your door", "icon": "🚪" },
+      "workplace": { "label": "Workplace raid", "icon": "🏭" },
+      "arrested": { "label": "Arrested or detained", "icon": "⚖️" }
+    },
+    "footer": "This site does not collect any data. No cookies. No tracking."
+  },
+  "guide": {
+    "breadcrumb_home": "Home",
+    "rights_title": "Your rights at a glance",
+    "what_next_title": "What happens next",
+    "cta": "View the actual laws behind these rights →",
+    "say_this_label": "Say this:",
+    "dont_label": "Don't:",
+    "scenarios": {
+      "police": {
+        "title": "Police stop or questioning",
+        "rights": [
+          "You have the right to remain silent (5th Amendment)",
+          "You do not have to answer questions about immigration status",
+          "You have the right to refuse a search (4th Amendment)",
+          "If not arrested, you have the right to leave"
+        ],
+        "what_next": "After a police stop, write down everything you remember as soon as possible — badge numbers, what was said, who was present. If your rights were violated, contact a civil rights attorney or the ACLU.",
+        "steps": [
+          {
+            "title": "Stay calm — hands visible, don't run or argue",
+            "body": "Keep your hands where the officer can see them. Sudden movements can escalate the situation.",
+            "say": null,
+            "dont": "Reach into pockets without telling the officer what you are doing"
+          },
+          {
+            "title": "Ask if you are free to go",
+            "body": "You have the right to know if you are being detained. If you are not being detained, you may leave.",
+            "say": "Am I being detained or am I free to go?",
+            "dont": null
+          },
+          {
+            "title": "Invoke your right to remain silent",
+            "body": "You do not have to answer questions. This right applies to everyone in the United States.",
+            "say": "I am exercising my right to remain silent.",
+            "dont": "Lie or give false information — that is a crime"
+          },
+          {
+            "title": "Refuse a search",
+            "body": "You can refuse consent to a search. The officer may still search if they have probable cause, but your refusal is on record.",
+            "say": "I do not consent to a search.",
+            "dont": null
+          },
+          {
+            "title": "If arrested, ask for a lawyer",
+            "body": "Once arrested, clearly state you want a lawyer and then stop talking.",
+            "say": "I want to speak to a lawyer.",
+            "dont": "Sign anything without a lawyer present"
+          }
+        ]
+      },
+      "ice": {
+        "title": "ICE agents at your door",
+        "rights": [
+          "You do not have to open the door",
+          "ICE needs a judicial warrant (signed by a judge) to enter — an I-200 administrative warrant does NOT count",
+          "You can speak through the closed door",
+          "You have the right to remain silent"
+        ],
+        "what_next": "If ICE enters without a valid warrant, note everything and contact an immigration attorney immediately. Document badge numbers, names, and what was said. Try to have someone witness or record the encounter.",
+        "steps": [
+          {
+            "title": "Do not open the door",
+            "body": "You are not required to open the door for immigration agents without a judicial warrant signed by a judge.",
+            "say": null,
+            "dont": "Open the door even if they say they have a warrant — ask them to show it first"
+          },
+          {
+            "title": "Ask for identification and paperwork",
+            "body": "Agents must show their badge and any warrant. Ask them to slide it under the door or hold it up to a window.",
+            "say": "Who are you? Please slide your badge and paperwork under the door.",
+            "dont": null
+          },
+          {
+            "title": "Check the warrant carefully",
+            "body": "A valid warrant must be signed by a judge (not an ICE officer), have your correct name and address, and say 'Search Warrant' or 'Arrest Warrant'. An I-200 administrative warrant does not authorize entry.",
+            "say": null,
+            "dont": "Sign anything they hand you"
+          },
+          {
+            "title": "Assert your rights through the closed door",
+            "body": "Clearly state that you are not consenting to entry.",
+            "say": "I am exercising my right to remain silent and do not consent to entry.",
+            "dont": null
+          },
+          {
+            "title": "Call a lawyer and document everything",
+            "body": "Contact an immigration attorney immediately. If possible, have someone record the encounter.",
+            "say": null,
+            "dont": null
+          }
+        ]
+      },
+      "workplace": {
+        "title": "Workplace raid",
+        "rights": [
+          "You have the right to remain silent",
+          "You do not have to show documents unless you are under arrest",
+          "You have the right to speak to an attorney",
+          "Employers cannot retaliate against you for exercising your rights"
+        ],
+        "what_next": "If you are released, write down everything that happened immediately — who was there, what was said, badge numbers. Contact an immigration attorney or legal aid organization as soon as possible.",
+        "steps": [
+          {
+            "title": "Stay calm — do not run",
+            "body": "Running or fleeing during a raid can lead to additional criminal charges.",
+            "say": null,
+            "dont": "Run — it can result in additional charges"
+          },
+          {
+            "title": "Ask if you are being detained",
+            "body": "You have the right to know your status before answering any questions.",
+            "say": "Am I being detained? Am I free to go?",
+            "dont": null
+          },
+          {
+            "title": "Invoke your rights",
+            "body": "Clearly state you are remaining silent and want a lawyer.",
+            "say": "I am exercising my right to remain silent and want to speak to a lawyer.",
+            "dont": "Show documents unless you are actually under formal arrest"
+          },
+          {
+            "title": "Do not sign voluntary departure forms",
+            "body": "Form I-274 waives important rights. Never sign it without a lawyer.",
+            "say": null,
+            "dont": "Sign any voluntary departure forms (Form I-274) without a lawyer"
+          },
+          {
+            "title": "Document the encounter afterward",
+            "body": "As soon as you are able, write down every detail of what happened.",
+            "say": null,
+            "dont": null
+          }
+        ]
+      },
+      "arrested": {
+        "title": "Arrested or detained",
+        "rights": [
+          "You have the right to remain silent",
+          "You have the right to an attorney — if you cannot afford one, ask for a public defender",
+          "You have the right to make a phone call",
+          "You have the right to contact your country's consulate (Vienna Convention)",
+          "You cannot be punished for your race, religion, or national origin"
+        ],
+        "what_next": "After arrest, an immigration judge will hear your case. Do not give up your right to a hearing by signing a voluntary departure form. Contact family, a lawyer, or a legal aid organization as soon as you are allowed to make a call.",
+        "steps": [
+          {
+            "title": "Invoke your rights immediately",
+            "body": "State this clearly and then stop talking. Do not answer any questions until a lawyer is present.",
+            "say": "I am exercising my right to remain silent and I want a lawyer.",
+            "dont": "Say anything else until a lawyer is present"
+          },
+          {
+            "title": "Do not sign voluntary departure",
+            "body": "Signing a voluntary departure form gives up your right to an immigration hearing and may have long-term consequences for future applications.",
+            "say": null,
+            "dont": "Sign a voluntary departure or deportation form without speaking to a lawyer"
+          },
+          {
+            "title": "Make your phone call",
+            "body": "Call a lawyer, legal aid hotline, or a trusted family member.",
+            "say": null,
+            "dont": null
+          },
+          {
+            "title": "Give your lawyer key information",
+            "body": "Tell them your full name, where you are being held, and your A-number (Alien Registration Number) if you have one.",
+            "say": null,
+            "dont": null
+          },
+          {
+            "title": "Activate your family safety plan",
+            "body": "If you prepared a plan with your family in advance, tell them to activate it now.",
+            "say": null,
+            "dont": null
+          }
+        ]
+      }
+    }
+  },
+  "rights": {
+    "title": "Legal References",
+    "intro": "These rights come from the U.S. Constitution and federal law. They apply to everyone in the United States, regardless of immigration status.",
+    "view_source": "View official source ↗",
+    "entries": [
+      {
+        "right": "Right to remain silent",
+        "source": "5th Amendment, U.S. Constitution",
+        "url": "https://constitution.congress.gov/constitution/amendment-5/",
+        "explanation": "No person shall be compelled to be a witness against themselves. This applies to everyone — citizens and non-citizens alike."
+      },
+      {
+        "right": "Protection from unreasonable search and seizure",
+        "source": "4th Amendment, U.S. Constitution",
+        "url": "https://constitution.congress.gov/constitution/amendment-4/",
+        "explanation": "The government cannot search your home, car, or person without a valid warrant or probable cause. You may refuse consent to a search."
+      },
+      {
+        "right": "Right to an attorney",
+        "source": "6th Amendment, U.S. Constitution",
+        "url": "https://constitution.congress.gov/constitution/amendment-6/",
+        "explanation": "In criminal proceedings, you have the right to an attorney. If you cannot afford one, the court must appoint a public defender."
+      },
+      {
+        "right": "Equal protection under the law",
+        "source": "14th Amendment, U.S. Constitution",
+        "url": "https://constitution.congress.gov/constitution/amendment-14/",
+        "explanation": "No state shall deny any person equal protection of the laws. The Supreme Court has held this applies to all persons, regardless of immigration status."
+      },
+      {
+        "right": "ICE warrant requirements",
+        "source": "8 U.S.C. § 1357",
+        "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title8-section1357",
+        "explanation": "Federal law limits ICE's authority to enter private premises. An administrative Form I-200 warrant does not authorize entry into a home — only a judicial warrant signed by a judge does."
+      },
+      {
+        "right": "Right to consular notification",
+        "source": "Vienna Convention on Consular Relations, Article 36",
+        "url": "https://legal.un.org/ilc/texts/instruments/english/conventions/9_2_1963.pdf",
+        "explanation": "If you are a foreign national and are arrested, you have the right to have your country's consulate notified and to communicate with consular officers."
+      },
+      {
+        "right": "Voluntary departure rights",
+        "source": "8 U.S.C. § 1229c",
+        "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title8-section1229c",
+        "explanation": "You have the right to request voluntary departure instead of formal removal — but only if you meet certain conditions and have not waived rights by signing forms under duress."
+      },
+      {
+        "right": "Worker protections (NLRA)",
+        "source": "29 U.S.C. § 157",
+        "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title29-section157",
+        "explanation": "Workers, regardless of immigration status, have the right to organize and engage in protected concerted activity. Employers cannot retaliate against workers for exercising these rights."
+      }
+    ]
+  },
+  "about": {
+    "title": "About This Site",
+    "what_title": "What this is",
+    "what_body": "Know Your Rights is a free public resource — not a law firm, not affiliated with any government agency. It provides plain-language guides to help immigrants and undocumented people understand their constitutional and legal rights during common encounters with law enforcement.",
+    "who_title": "Who it's for",
+    "who_body": "This site is for immigrants, undocumented people, mixed-status families, and anyone who wants to understand their rights.",
+    "disclaimer_title": "Disclaimer",
+    "disclaimer_body": "This is not legal advice. Laws may change. Always consult a licensed immigration attorney for advice about your specific situation.",
+    "privacy_title": "Privacy",
+    "privacy_body": "This site collects no data, sets no cookies, and has no tracking of any kind. Your visit is completely private.",
+    "orgs_title": "Organizations to save in your phone",
+    "orgs": [
+      { "name": "ACLU", "phone": "1-212-549-2500", "url": "https://www.aclu.org" },
+      { "name": "NILC — National Immigration Law Center", "phone": null, "url": "https://www.nilc.org" },
+      { "name": "United We Dream", "phone": null, "url": "https://unitedwedream.org" },
+      { "name": "Immigration Advocates Network", "phone": null, "url": "https://www.immigrationadvocates.org" }
+    ]
+  }
+}

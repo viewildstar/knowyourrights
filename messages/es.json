@@ -1,0 +1,274 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "rights": "Referencias Legales",
+    "about": "Acerca de"
+  },
+  "privacy": {
+    "banner": "Para mayor privacidad, usa este sitio en una ventana privada/incógnito y considera usar el navegador Tor.",
+    "dismiss": "Cerrar"
+  },
+  "home": {
+    "headline": "Conoce Tus Derechos",
+    "subhead": "Guías paso a paso para situaciones reales. Tienes derechos — sin importar tu estatus migratorio.",
+    "scenarios": {
+      "police": { "label": "Detención policial", "icon": "🚔" },
+      "ice": { "label": "Agentes de ICE en tu puerta", "icon": "🚪" },
+      "workplace": { "label": "Redada en el trabajo", "icon": "🏭" },
+      "arrested": { "label": "Arrestado o detenido", "icon": "⚖️" }
+    },
+    "footer": "Este sitio no recopila ningún dato. Sin cookies. Sin rastreo."
+  },
+  "guide": {
+    "breadcrumb_home": "Inicio",
+    "rights_title": "Tus derechos de un vistazo",
+    "what_next_title": "¿Qué pasa después?",
+    "cta": "Ver las leyes detrás de estos derechos →",
+    "say_this_label": "Di esto:",
+    "dont_label": "No hagas:",
+    "scenarios": {
+      "police": {
+        "title": "Detención policial",
+        "rights": [
+          "Tienes derecho a guardar silencio (5ta Enmienda)",
+          "No tienes que responder preguntas sobre tu estatus migratorio",
+          "Tienes derecho a rechazar un registro (4ta Enmienda)",
+          "Si no estás arrestado, tienes derecho a irte"
+        ],
+        "what_next": "Después de una detención policial, anota todo lo que recuerdes lo antes posible — números de placa, lo que se dijo, quién estaba presente. Si violaron tus derechos, contacta a un abogado de derechos civiles o a la ACLU.",
+        "steps": [
+          {
+            "title": "Mantén la calma — manos visibles, no corras ni discutas",
+            "body": "Mantén tus manos donde el oficial pueda verlas. Los movimientos bruscos pueden escalar la situación.",
+            "say": null,
+            "dont": "Meter la mano en los bolsillos sin avisar al oficial lo que estás haciendo"
+          },
+          {
+            "title": "Pregunta si eres libre de irte",
+            "body": "Tienes derecho a saber si estás detenido. Si no estás detenido, puedes irte.",
+            "say": "¿Estoy detenido o soy libre de irme?",
+            "dont": null
+          },
+          {
+            "title": "Invoca tu derecho a guardar silencio",
+            "body": "No tienes que responder preguntas. Este derecho aplica a todas las personas en Estados Unidos.",
+            "say": "Estoy ejerciendo mi derecho a guardar silencio.",
+            "dont": "Mentir o dar información falsa — eso es un delito"
+          },
+          {
+            "title": "Rechaza un registro",
+            "body": "Puedes negarte a dar tu consentimiento para un registro. El oficial puede seguir si tiene causa probable, pero tu negativa queda registrada.",
+            "say": "No doy mi consentimiento para un registro.",
+            "dont": null
+          },
+          {
+            "title": "Si te arrestan, pide un abogado",
+            "body": "Una vez arrestado, declara claramente que quieres un abogado y deja de hablar.",
+            "say": "Quiero hablar con un abogado.",
+            "dont": "Firmar nada sin la presencia de un abogado"
+          }
+        ]
+      },
+      "ice": {
+        "title": "Agentes de ICE en tu puerta",
+        "rights": [
+          "No tienes que abrir la puerta",
+          "ICE necesita una orden judicial (firmada por un juez) para entrar — una orden administrativa I-200 NO cuenta",
+          "Puedes hablar a través de la puerta cerrada",
+          "Tienes derecho a guardar silencio"
+        ],
+        "what_next": "Si ICE entra sin una orden válida, anota todo y contacta a un abogado de inmigración de inmediato. Documenta números de placa, nombres y lo que se dijo. Si es posible, pide a alguien que sea testigo o que grabe lo que ocurre.",
+        "steps": [
+          {
+            "title": "No abras la puerta",
+            "body": "No estás obligado a abrir la puerta a agentes de inmigración sin una orden judicial firmada por un juez.",
+            "say": null,
+            "dont": "Abrir la puerta aunque digan que tienen una orden — pídeles que la muestren primero"
+          },
+          {
+            "title": "Pide identificación y documentos",
+            "body": "Los agentes deben mostrar su placa y cualquier orden. Pídeles que la deslicen por debajo de la puerta o la muestren por una ventana.",
+            "say": "¿Quiénes son? Por favor deslicen su placa y documentos por debajo de la puerta.",
+            "dont": null
+          },
+          {
+            "title": "Revisa la orden cuidadosamente",
+            "body": "Una orden válida debe estar firmada por un juez (no por un agente de ICE), tener tu nombre y dirección correctos, y decir 'Search Warrant' o 'Arrest Warrant'. Una orden administrativa I-200 no autoriza la entrada.",
+            "say": null,
+            "dont": "Firmar cualquier cosa que te entreguen"
+          },
+          {
+            "title": "Declara tus derechos a través de la puerta cerrada",
+            "body": "Deja claro que no consientes la entrada.",
+            "say": "Estoy ejerciendo mi derecho a guardar silencio y no doy mi consentimiento para entrar.",
+            "dont": null
+          },
+          {
+            "title": "Llama a un abogado y documenta todo",
+            "body": "Contacta a un abogado de inmigración de inmediato. Si es posible, pide a alguien que grabe lo que ocurre.",
+            "say": null,
+            "dont": null
+          }
+        ]
+      },
+      "workplace": {
+        "title": "Redada en el trabajo",
+        "rights": [
+          "Tienes derecho a guardar silencio",
+          "No tienes que mostrar documentos a menos que estés bajo arresto",
+          "Tienes derecho a hablar con un abogado",
+          "Los empleadores no pueden represaliarte por ejercer tus derechos"
+        ],
+        "what_next": "Si te liberan, anota inmediatamente todo lo que ocurrió — quién estaba allí, lo que se dijo, números de placa. Contacta a un abogado de inmigración o a una organización de ayuda legal lo antes posible.",
+        "steps": [
+          {
+            "title": "Mantén la calma — no corras",
+            "body": "Huir durante una redada puede resultar en cargos adicionales.",
+            "say": null,
+            "dont": "Correr — puede resultar en cargos adicionales"
+          },
+          {
+            "title": "Pregunta si estás detenido",
+            "body": "Tienes derecho a conocer tu situación antes de responder cualquier pregunta.",
+            "say": "¿Estoy detenido? ¿Soy libre de irme?",
+            "dont": null
+          },
+          {
+            "title": "Invoca tus derechos",
+            "body": "Declara claramente que guardas silencio y quieres un abogado.",
+            "say": "Estoy ejerciendo mi derecho a guardar silencio y quiero hablar con un abogado.",
+            "dont": "Mostrar documentos a menos que estés formalmente arrestado"
+          },
+          {
+            "title": "No firmes formularios de salida voluntaria",
+            "body": "El Formulario I-274 renuncia a derechos importantes. Nunca lo firmes sin un abogado.",
+            "say": null,
+            "dont": "Firmar formularios de salida voluntaria (Formulario I-274) sin un abogado"
+          },
+          {
+            "title": "Documenta el incidente después",
+            "body": "En cuanto puedas, anota cada detalle de lo que ocurrió.",
+            "say": null,
+            "dont": null
+          }
+        ]
+      },
+      "arrested": {
+        "title": "Arrestado o detenido",
+        "rights": [
+          "Tienes derecho a guardar silencio",
+          "Tienes derecho a un abogado — si no puedes pagarlo, pide un defensor público",
+          "Tienes derecho a hacer una llamada telefónica",
+          "Tienes derecho a contactar el consulado de tu país (Convención de Viena)",
+          "No puedes ser castigado por tu raza, religión u origen nacional"
+        ],
+        "what_next": "Después del arresto, un juez de inmigración escuchará tu caso. No renuncies a tu derecho a una audiencia firmando un formulario de salida voluntaria. Contacta a un familiar, abogado u organización de ayuda legal en cuanto puedas hacer una llamada.",
+        "steps": [
+          {
+            "title": "Invoca tus derechos inmediatamente",
+            "body": "Dilo claramente y luego deja de hablar. No respondas ninguna pregunta hasta que haya un abogado presente.",
+            "say": "Estoy ejerciendo mi derecho a guardar silencio y quiero un abogado.",
+            "dont": "Decir nada más hasta que haya un abogado presente"
+          },
+          {
+            "title": "No firmes la salida voluntaria",
+            "body": "Firmar un formulario de salida voluntaria renuncia a tu derecho a una audiencia de inmigración y puede tener consecuencias a largo plazo.",
+            "say": null,
+            "dont": "Firmar un formulario de salida voluntaria o deportación sin hablar con un abogado"
+          },
+          {
+            "title": "Haz tu llamada telefónica",
+            "body": "Llama a un abogado, a una línea de ayuda legal, o a un familiar de confianza.",
+            "say": null,
+            "dont": null
+          },
+          {
+            "title": "Da información clave a tu abogado",
+            "body": "Dile tu nombre completo, dónde estás detenido y tu número A (Número de Registro de Extranjero) si lo tienes.",
+            "say": null,
+            "dont": null
+          },
+          {
+            "title": "Activa tu plan familiar de seguridad",
+            "body": "Si preparaste un plan con tu familia con anticipación, diles que lo activen ahora.",
+            "say": null,
+            "dont": null
+          }
+        ]
+      }
+    }
+  },
+  "rights": {
+    "title": "Referencias Legales",
+    "intro": "Estos derechos provienen de la Constitución de EE.UU. y de la ley federal. Se aplican a todas las personas en los Estados Unidos, independientemente de su estatus migratorio.",
+    "view_source": "Ver fuente oficial ↗",
+    "entries": [
+      {
+        "right": "Derecho a guardar silencio",
+        "source": "5ta Enmienda, Constitución de EE.UU.",
+        "url": "https://constitution.congress.gov/constitution/amendment-5/",
+        "explanation": "Nadie puede ser obligado a ser testigo contra sí mismo. Esto aplica a todas las personas — ciudadanos y no ciudadanos por igual."
+      },
+      {
+        "right": "Protección contra registros e incautaciones irrazonables",
+        "source": "4ta Enmienda, Constitución de EE.UU.",
+        "url": "https://constitution.congress.gov/constitution/amendment-4/",
+        "explanation": "El gobierno no puede registrar tu hogar, auto o persona sin una orden válida o causa probable. Puedes negarte a dar tu consentimiento para un registro."
+      },
+      {
+        "right": "Derecho a un abogado",
+        "source": "6ta Enmienda, Constitución de EE.UU.",
+        "url": "https://constitution.congress.gov/constitution/amendment-6/",
+        "explanation": "En procesos penales, tienes derecho a un abogado. Si no puedes pagarlo, el tribunal debe designar un defensor público."
+      },
+      {
+        "right": "Igualdad de protección bajo la ley",
+        "source": "14ta Enmienda, Constitución de EE.UU.",
+        "url": "https://constitution.congress.gov/constitution/amendment-14/",
+        "explanation": "Ningún estado puede negarle a ninguna persona la igual protección de las leyes. La Corte Suprema ha establecido que esto aplica a todas las personas, sin importar su estatus migratorio."
+      },
+      {
+        "right": "Requisitos de orden para ICE",
+        "source": "8 U.S.C. § 1357",
+        "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title8-section1357",
+        "explanation": "La ley federal limita la autoridad de ICE para entrar a propiedades privadas. Una orden administrativa Formulario I-200 no autoriza la entrada a un hogar — solo una orden judicial firmada por un juez lo hace."
+      },
+      {
+        "right": "Derecho a notificación consular",
+        "source": "Convención de Viena sobre Relaciones Consulares, Artículo 36",
+        "url": "https://legal.un.org/ilc/texts/instruments/english/conventions/9_2_1963.pdf",
+        "explanation": "Si eres extranjero y te arrestan, tienes derecho a que notifiquen al consulado de tu país y a comunicarte con funcionarios consulares."
+      },
+      {
+        "right": "Derechos de salida voluntaria",
+        "source": "8 U.S.C. § 1229c",
+        "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title8-section1229c",
+        "explanation": "Tienes derecho a solicitar salida voluntaria en lugar de expulsión formal — pero solo si cumples ciertos requisitos y no has renunciado a tus derechos firmando formularios bajo presión."
+      },
+      {
+        "right": "Protecciones laborales (NLRA)",
+        "source": "29 U.S.C. § 157",
+        "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title29-section157",
+        "explanation": "Los trabajadores, independientemente de su estatus migratorio, tienen derecho a organizarse y participar en actividades de acción colectiva protegida. Los empleadores no pueden tomar represalias contra los trabajadores por ejercer estos derechos."
+      }
+    ]
+  },
+  "about": {
+    "title": "Acerca de Este Sitio",
+    "what_title": "¿Qué es esto?",
+    "what_body": "Conoce Tus Derechos es un recurso público gratuito — no es un bufete de abogados ni está afiliado a ninguna agencia gubernamental. Ofrece guías en lenguaje sencillo para ayudar a inmigrantes y personas indocumentadas a entender sus derechos constitucionales y legales durante encuentros comunes con las autoridades.",
+    "who_title": "¿Para quién es?",
+    "who_body": "Este sitio es para inmigrantes, personas indocumentadas, familias de estatus mixto y cualquier persona que quiera entender sus derechos.",
+    "disclaimer_title": "Aviso Legal",
+    "disclaimer_body": "Esto no es asesoramiento legal. Las leyes pueden cambiar. Siempre consulta con un abogado de inmigración autorizado para obtener orientación sobre tu situación específica.",
+    "privacy_title": "Privacidad",
+    "privacy_body": "Este sitio no recopila datos, no establece cookies y no tiene ningún tipo de rastreo. Tu visita es completamente privada.",
+    "orgs_title": "Organizaciones para guardar en tu teléfono",
+    "orgs": [
+      { "name": "ACLU", "phone": "1-212-549-2500", "url": "https://www.aclu.org" },
+      { "name": "NILC — Centro Nacional de Derecho de Inmigración", "phone": null, "url": "https://www.nilc.org" },
+      { "name": "United We Dream", "phone": null, "url": "https://unitedwedream.org" },
+      { "name": "Red de Defensores de Inmigración", "phone": null, "url": "https://www.immigrationadvocates.org" }
+    ]
+  }
+}
