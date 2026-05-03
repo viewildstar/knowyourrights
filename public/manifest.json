@@ -1,0 +1,17 @@
+{
+  "name": "Know Your Rights",
+  "short_name": "KnowYourRights",
+  "description": "Privacy-first legal rights guide for immigrants. No tracking, no data collected.",
+  "start_url": "/en",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#1D4E6B",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "nav": {
     "home": "Home",
     "rights": "Legal References",
-    "about": "About"
+    "about": "About",
+    "phrases": "Emergency Phrases"
   },
   "privacy": {
     "banner": "For maximum privacy, use this site in a private/incognito window and consider using the Tor Browser.",
@@ -11,21 +12,32 @@
   "home": {
     "headline": "Know Your Rights",
     "subhead": "Step-by-step guides for real situations. You have rights — no matter your immigration status.",
+    "privacy_badge": "No tracking. No data. No accounts.",
     "scenarios": {
       "police": { "label": "Police stop or questioning", "icon": "🚔" },
       "ice": { "label": "ICE agents at your door", "icon": "🚪" },
       "workplace": { "label": "Workplace raid", "icon": "🏭" },
       "arrested": { "label": "Arrested or detained", "icon": "⚖️" }
     },
-    "footer": "This site does not collect any data. No cookies. No tracking."
+    "phrases_card": {
+      "label": "Emergency phrases",
+      "icon": "💬",
+      "desc": "Key phrases to use in any encounter"
+    },
+    "footer": "This site does not collect any data. No cookies. No tracking.",
+    "disclaimer": "This is general legal information, not legal advice."
   },
   "guide": {
     "breadcrumb_home": "Home",
     "rights_title": "Your rights at a glance",
     "what_next_title": "What happens next",
+    "safety_title": "Safety reminders",
+    "legal_help_title": "When to seek legal help",
     "cta": "View the actual laws behind these rights →",
     "say_this_label": "Say this:",
     "dont_label": "Don't:",
+    "read_aloud": "Read aloud",
+    "stop_reading": "Stop",
     "scenarios": {
       "police": {
         "title": "Police stop or questioning",
@@ -36,6 +48,12 @@
           "If not arrested, you have the right to leave"
         ],
         "what_next": "After a police stop, write down everything you remember as soon as possible — badge numbers, what was said, who was present. If your rights were violated, contact a civil rights attorney or the ACLU.",
+        "safety_reminders": [
+          "Stay calm — panicking or arguing makes things worse",
+          "Document the officer's badge number and name afterward",
+          "You can file a complaint if your rights were violated"
+        ],
+        "legal_help": "Seek legal help if you are arrested, charged with a crime, or believe your rights were violated. Contact the ACLU or a civil rights attorney.",
         "steps": [
           {
             "title": "Stay calm — hands visible, don't run or argue",
@@ -78,6 +96,12 @@
           "You have the right to remain silent"
         ],
         "what_next": "If ICE enters without a valid warrant, note everything and contact an immigration attorney immediately. Document badge numbers, names, and what was said. Try to have someone witness or record the encounter.",
+        "safety_reminders": [
+          "Have a family safety plan prepared in advance",
+          "Know your A-number (Alien Registration Number) — keep it memorized or in a safe place",
+          "Have a trusted person outside your home who can call a lawyer on your behalf"
+        ],
+        "legal_help": "Contact an immigration attorney immediately if ICE entered your home, detained a family member, or if you were asked to sign anything. Do not delay.",
         "steps": [
           {
             "title": "Do not open the door",
@@ -120,6 +144,12 @@
           "Employers cannot retaliate against you for exercising your rights"
         ],
         "what_next": "If you are released, write down everything that happened immediately — who was there, what was said, badge numbers. Contact an immigration attorney or legal aid organization as soon as possible.",
+        "safety_reminders": [
+          "Save a lawyer's number in your phone before anything happens",
+          "Know your rights at work — retaliation for exercising rights is illegal",
+          "Do not panic — running or resisting creates additional legal risk"
+        ],
+        "legal_help": "Seek legal help if you are detained, asked to sign anything, or if your employer is cooperating with ICE. Contact a labor rights attorney or immigration legal aid.",
         "steps": [
           {
             "title": "Stay calm — do not run",
@@ -163,6 +193,12 @@
           "You cannot be punished for your race, religion, or national origin"
         ],
         "what_next": "After arrest, an immigration judge will hear your case. Do not give up your right to a hearing by signing a voluntary departure form. Contact family, a lawyer, or a legal aid organization as soon as you are allowed to make a call.",
+        "safety_reminders": [
+          "Memorize your lawyer's phone number — you may not have access to your phone",
+          "Do not accept voluntary departure without speaking to a lawyer first",
+          "You have the right to contact your country's consulate — ask immediately"
+        ],
+        "legal_help": "Seek legal help immediately. Do not speak to anyone — officials, agents, or other detainees — about your case until a lawyer is present.",
         "steps": [
           {
             "title": "Invoke your rights immediately",
@@ -196,6 +232,44 @@
           }
         ]
       }
+    }
+  },
+  "phrases": {
+    "title": "Emergency Phrases",
+    "subtitle": "Use these exact words. You do not need to explain yourself.",
+    "tip": "Screenshot or bookmark this page for offline access.",
+    "both_languages": "Shown in English and Spanish",
+    "categories": {
+      "general": "Any encounter",
+      "police": "Police stop",
+      "ice": "ICE at your door",
+      "workplace": "Workplace raid",
+      "arrested": "If detained"
+    },
+    "items": {
+      "general": [
+        { "en": "Am I being detained or am I free to go?", "es": "¿Estoy detenido o soy libre de irme?", "note": "Ask this first — know your status" },
+        { "en": "I am exercising my right to remain silent.", "es": "Estoy ejerciendo mi derecho a guardar silencio.", "note": "You do not have to explain yourself" },
+        { "en": "I want to speak to a lawyer.", "es": "Quiero hablar con un abogado.", "note": "Say this and stop talking" }
+      ],
+      "police": [
+        { "en": "I do not consent to a search.", "es": "No doy mi consentimiento para un registro.", "note": null },
+        { "en": "I am not answering questions without a lawyer.", "es": "No respondo preguntas sin un abogado.", "note": null }
+      ],
+      "ice": [
+        { "en": "I do not consent to entry.", "es": "No doy mi consentimiento para entrar.", "note": "Say through closed door" },
+        { "en": "Please slide your paperwork under the door.", "es": "Por favor deslice sus documentos bajo la puerta.", "note": null },
+        { "en": "Do you have a judicial warrant signed by a judge?", "es": "¿Tiene una orden judicial firmada por un juez?", "note": "Administrative warrants do not count" }
+      ],
+      "workplace": [
+        { "en": "I am exercising my right to remain silent and want to speak to a lawyer.", "es": "Estoy ejerciendo mi derecho a guardar silencio y quiero hablar con un abogado.", "note": null },
+        { "en": "Am I free to go?", "es": "¿Soy libre de irme?", "note": null }
+      ],
+      "arrested": [
+        { "en": "I am exercising my right to remain silent and I want a lawyer.", "es": "Estoy ejerciendo mi derecho a guardar silencio y quiero un abogado.", "note": "Say this — then stop talking" },
+        { "en": "I do not consent to voluntary departure.", "es": "No doy mi consentimiento a la salida voluntaria.", "note": "Do not sign anything" },
+        { "en": "I want to contact my consulate.", "es": "Quiero contactar mi consulado.", "note": "Vienna Convention right" }
+      ]
     }
   },
   "rights": {

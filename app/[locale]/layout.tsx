@@ -5,6 +5,8 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import NavBar from '@/components/NavBar';
 import PrivacyBanner from '@/components/PrivacyBanner';
+import QuickExit from '@/components/QuickExit';
+import ServiceWorkerRegister from '@/components/ServiceWorkerRegister';
 import '../globals.css';
 
 export const metadata: Metadata = {
@@ -43,12 +45,16 @@ export default async function LocaleLayout({
       <head>
         <meta httpEquiv="Content-Security-Policy" content={CSP} />
         <meta name="referrer" content="no-referrer" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#1D4E6B" />
       </head>
       <body className="font-sans min-h-screen bg-stone-50 text-gray-900">
         <NextIntlClientProvider messages={messages}>
+          <ServiceWorkerRegister />
           <PrivacyBanner />
           <NavBar />
           <main>{children}</main>
+          <QuickExit />
         </NextIntlClientProvider>
       </body>
     </html>

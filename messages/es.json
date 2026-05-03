@@ -2,7 +2,8 @@
   "nav": {
     "home": "Inicio",
     "rights": "Referencias Legales",
-    "about": "Acerca de"
+    "about": "Acerca de",
+    "phrases": "Frases de Emergencia"
   },
   "privacy": {
     "banner": "Para mayor privacidad, usa este sitio en una ventana privada/incógnito y considera usar el navegador Tor.",
@@ -11,21 +12,32 @@
   "home": {
     "headline": "Conoce Tus Derechos",
     "subhead": "Guías paso a paso para situaciones reales. Tienes derechos — sin importar tu estatus migratorio.",
+    "privacy_badge": "Sin rastreo. Sin datos. Sin cuentas.",
     "scenarios": {
       "police": { "label": "Detención policial", "icon": "🚔" },
       "ice": { "label": "Agentes de ICE en tu puerta", "icon": "🚪" },
       "workplace": { "label": "Redada en el trabajo", "icon": "🏭" },
       "arrested": { "label": "Arrestado o detenido", "icon": "⚖️" }
     },
-    "footer": "Este sitio no recopila ningún dato. Sin cookies. Sin rastreo."
+    "phrases_card": {
+      "label": "Frases de emergencia",
+      "icon": "💬",
+      "desc": "Frases clave para cualquier encuentro"
+    },
+    "footer": "Este sitio no recopila ningún dato. Sin cookies. Sin rastreo.",
+    "disclaimer": "Esta es información legal general, no asesoramiento legal."
   },
   "guide": {
     "breadcrumb_home": "Inicio",
     "rights_title": "Tus derechos de un vistazo",
     "what_next_title": "¿Qué pasa después?",
+    "safety_title": "Recordatorios de seguridad",
+    "legal_help_title": "Cuándo buscar ayuda legal",
     "cta": "Ver las leyes detrás de estos derechos →",
     "say_this_label": "Di esto:",
     "dont_label": "No hagas:",
+    "read_aloud": "Leer en voz alta",
+    "stop_reading": "Detener",
     "scenarios": {
       "police": {
         "title": "Detención policial",
@@ -36,6 +48,12 @@
           "Si no estás arrestado, tienes derecho a irte"
         ],
         "what_next": "Después de una detención policial, anota todo lo que recuerdes lo antes posible — números de placa, lo que se dijo, quién estaba presente. Si violaron tus derechos, contacta a un abogado de derechos civiles o a la ACLU.",
+        "safety_reminders": [
+          "Mantén la calma — el pánico o discutir empeora las cosas",
+          "Anota el número de placa del oficial después",
+          "Puedes presentar una queja si violaron tus derechos"
+        ],
+        "legal_help": "Busca ayuda legal si te arrestan, te acusan de un delito, o crees que violaron tus derechos. Contacta a la ACLU o a un abogado de derechos civiles.",
         "steps": [
           {
             "title": "Mantén la calma — manos visibles, no corras ni discutas",
@@ -78,6 +96,12 @@
           "Tienes derecho a guardar silencio"
         ],
         "what_next": "Si ICE entra sin una orden válida, anota todo y contacta a un abogado de inmigración de inmediato. Documenta números de placa, nombres y lo que se dijo. Si es posible, pide a alguien que sea testigo o que grabe lo que ocurre.",
+        "safety_reminders": [
+          "Ten un plan de seguridad familiar preparado con anticipación",
+          "Memoriza tu número A (Número de Registro de Extranjero)",
+          "Ten a alguien de confianza fuera de tu hogar que pueda llamar a un abogado"
+        ],
+        "legal_help": "Contacta a un abogado de inmigración de inmediato si ICE entró a tu hogar, detuvo a un familiar, o te pidieron firmar algo. No te demores.",
         "steps": [
           {
             "title": "No abras la puerta",
@@ -120,6 +144,12 @@
           "Los empleadores no pueden represaliarte por ejercer tus derechos"
         ],
         "what_next": "Si te liberan, anota inmediatamente todo lo que ocurrió — quién estaba allí, lo que se dijo, números de placa. Contacta a un abogado de inmigración o a una organización de ayuda legal lo antes posible.",
+        "safety_reminders": [
+          "Guarda el número de un abogado en tu teléfono antes de que ocurra cualquier cosa",
+          "Conoce tus derechos laborales — las represalias por ejercerlos son ilegales",
+          "No entres en pánico — correr o resistirse crea riesgo legal adicional"
+        ],
+        "legal_help": "Busca ayuda legal si te detienen, te piden firmar algo, o si tu empleador está cooperando con ICE. Contacta un abogado laboral o de ayuda legal de inmigración.",
         "steps": [
           {
             "title": "Mantén la calma — no corras",
@@ -163,6 +193,12 @@
           "No puedes ser castigado por tu raza, religión u origen nacional"
         ],
         "what_next": "Después del arresto, un juez de inmigración escuchará tu caso. No renuncies a tu derecho a una audiencia firmando un formulario de salida voluntaria. Contacta a un familiar, abogado u organización de ayuda legal en cuanto puedas hacer una llamada.",
+        "safety_reminders": [
+          "Memoriza el número de teléfono de tu abogado — puede que no tengas acceso a tu teléfono",
+          "No aceptes la salida voluntaria sin hablar con un abogado primero",
+          "Tienes derecho a contactar el consulado de tu país — pídelo de inmediato"
+        ],
+        "legal_help": "Busca ayuda legal de inmediato. No hables con nadie — oficiales, agentes u otros detenidos — sobre tu caso hasta que haya un abogado presente.",
         "steps": [
           {
             "title": "Invoca tus derechos inmediatamente",
@@ -196,6 +232,44 @@
           }
         ]
       }
+    }
+  },
+  "phrases": {
+    "title": "Frases de Emergencia",
+    "subtitle": "Usa estas palabras exactas. No necesitas explicarte.",
+    "tip": "Toma una captura de pantalla o guarda esta página para acceso sin conexión.",
+    "both_languages": "En inglés y español",
+    "categories": {
+      "general": "Cualquier encuentro",
+      "police": "Detención policial",
+      "ice": "ICE en tu puerta",
+      "workplace": "Redada laboral",
+      "arrested": "Si te detienen"
+    },
+    "items": {
+      "general": [
+        { "en": "Am I being detained or am I free to go?", "es": "¿Estoy detenido o soy libre de irme?", "note": "Pregunta esto primero — conoce tu situación" },
+        { "en": "I am exercising my right to remain silent.", "es": "Estoy ejerciendo mi derecho a guardar silencio.", "note": "No tienes que explicarte" },
+        { "en": "I want to speak to a lawyer.", "es": "Quiero hablar con un abogado.", "note": "Di esto y deja de hablar" }
+      ],
+      "police": [
+        { "en": "I do not consent to a search.", "es": "No doy mi consentimiento para un registro.", "note": null },
+        { "en": "I am not answering questions without a lawyer.", "es": "No respondo preguntas sin un abogado.", "note": null }
+      ],
+      "ice": [
+        { "en": "I do not consent to entry.", "es": "No doy mi consentimiento para entrar.", "note": "Di esto a través de la puerta cerrada" },
+        { "en": "Please slide your paperwork under the door.", "es": "Por favor deslice sus documentos bajo la puerta.", "note": null },
+        { "en": "Do you have a judicial warrant signed by a judge?", "es": "¿Tiene una orden judicial firmada por un juez?", "note": "Las órdenes administrativas no cuentan" }
+      ],
+      "workplace": [
+        { "en": "I am exercising my right to remain silent and want to speak to a lawyer.", "es": "Estoy ejerciendo mi derecho a guardar silencio y quiero hablar con un abogado.", "note": null },
+        { "en": "Am I free to go?", "es": "¿Soy libre de irme?", "note": null }
+      ],
+      "arrested": [
+        { "en": "I am exercising my right to remain silent and I want a lawyer.", "es": "Estoy ejerciendo mi derecho a guardar silencio y quiero un abogado.", "note": "Di esto — luego deja de hablar" },
+        { "en": "I do not consent to voluntary departure.", "es": "No doy mi consentimiento a la salida voluntaria.", "note": "No firmes nada" },
+        { "en": "I want to contact my consulate.", "es": "Quiero contactar mi consulado.", "note": "Derecho de la Convención de Viena" }
+      ]
     }
   },
   "rights": {
